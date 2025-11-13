@@ -30,8 +30,14 @@ function legalSpeed (speed) {
 //
 
 function isGoldenYears (age) {
-    if (age >= 65);
+    if (age >= 65) {
     return "golden years";
+    }
+
+    if (age < 65) {
+        return null;
+    }
+    
 }
 
 
