@@ -19,9 +19,20 @@ function underAge (age){
     }
 }
 
+//
 
+function legalSpeed (speed) {
+    if (speed <= 50) {
+        return "legal speed";
+    }
+}
 
+//
 
+function isGoldenYears (age) {
+    if (age >= 65);
+    return "golden years";
+}
 
 
 
